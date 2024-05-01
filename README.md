@@ -8,7 +8,6 @@ In this walkthrough, we'll learn to create an Active Directory home lab environm
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
 - <b>Oracle</b>
 - <b> Windows 10 Iso</b>
 - <b> Windows Server 2019 Iso</b>
