@@ -6,7 +6,7 @@ In this walkthrough, we'll learn to create an Active Directory home lab environm
 </br>
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
 - <b>Oracle</b>
 - <b> Windows 10 Iso</b>
