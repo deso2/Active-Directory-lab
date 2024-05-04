@@ -3,8 +3,6 @@
 
 <h2>Description</h2>
 In this walkthrough, we'll learn to create an Active Directory home lab environment using Oracle VirtualBox. Configuring and running this lab will help in the understanding of how Active Directory and Windows networking work.
-</br>
-
 
 <h2>Utilities Used</h2>
 
@@ -33,6 +31,7 @@ Install Server 2019 with GUI (Standard Desktop Experience).
 Follow installation prompts, including accepting license agreements.
 After installation, set password (e.g., "Password1") for the default administrator account.
 
+<h2>Network Setting on Windows Server 2019</h2>
 <p align="center">
 <img src="https://imgur.com/Fql3Hlq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -49,10 +48,10 @@ Proceed with default settings and set a password.
 Complete the installation, and the server will automatically restart.
 Log in using the built-in admin account (now with mydomain\administrator).
 
-<p align="center">
+<h2>Setting-up a user account</h2><p align="center">
 <img src="https://imgur.com/GCd0B1B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
- Log in with the built-in admin account (now mydomain\administrator). Create a dedicated domain admin account via "Start," "Administrative Tools," "Active Directory Users and Computers." Create an organizational unit named "MyAdmins" and create a new user with a naming convention (e.g., first initial, last name). Assign password "password1" and ensure "User must change password" is unchecked. Also, uncheck "Password never expires." Finish to create the account.
+Log in with the built-in admin account (now mydomain\administrator). Create a dedicated domain admin account via "Start," "Administrative Tools," "Active Directory Users and Computers." Create an organizational unit named "MyAdmins" and create a new user with a naming convention (e.g., first initial, last name). Assign password "password1" and ensure "User must change password" is unchecked. Also, uncheck "Password never expires." Finish to create the account.
 
 <p align="center">
 <img src="https://imgur.com/UpH0Jax.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
