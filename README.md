@@ -23,12 +23,9 @@ Additionally, download the Windows Server 2019 ISO, choosing the desired edition
 <p align="center">
 <img src="https://imgur.com/aZSRgBa.png" height="80%" width="80%"/>
 
-Fill out the required information and download both files to the same location.
-Open VirtualBox and create a new virtual machine for Server 2019.
-Configure settings: allocate RAM (at least 2GB) and set up network adapters (one for internet, one internal).
-Start the VM and select the Server 2019 ISO.
-Install Server 2019 with GUI (Standard Desktop Experience).
-Follow installation prompts, including accepting license agreements.
+Fill out the required information and download both files to the same location. Open VirtualBox and create a new virtual machine for Server 2019.
+Configure settings: allocate RAM (at least 2GB) and set up network adapters (one for internet, one internal). Start the VM and select the Server 2019 ISO.
+Install Server 2019 with GUI (Standard Desktop Experience). Follow installation prompts, including accepting license agreements.
 After installation, set password (e.g., "Password1") for the default administrator account.
 
 <h2>Network Setting on Windows Server 2019</h2>
@@ -61,6 +58,8 @@ Go to "Tools" > "Routing and Remote Access," configure and enable NAT for intern
 <img src="https://imgur.com/p13t1G5.png" height="80%" width="80%"/>
 
 Set up DHCP server on the domain controller to provide IP addresses for Windows 10 clients. Go to "Add Roles," select DHCP, and install. In "DHCP" under "Tools," create a scope (e.g., 172.16.0.100 - 172.16.0.200) with subnet mask 255.255.255.0. Configure DHCP options: set the router's IP address as the domain controller's internal NIC, and DNS server as the domain controller. Authorize the DHCP server and refresh to activate the scope.
+
+<h2> Creating a Windows 10 VM</h2>
 
 <p align="center">
 <img src="https://imgur.com/bIDx2uW.png" height="80%" width="80%"/>
