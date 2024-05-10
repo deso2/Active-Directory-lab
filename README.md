@@ -38,9 +38,8 @@ Set up IP addresses for both NICs: one for internet (automatic) and one internal
 <p align="center">
 <img src="https://imgur.com/QjBusg8.png" height="80%" width="80%"/>
 
-Open "Add Roles and Features" and select the server.Choose "Active Directory Domain Services" and install.
-Post-installation, click on the notification flag to promote the server to a domain controller. Select "Add new forest" and name the domain (e.g., mydomain.com). Then Proceed with default settings and set a password.
-Complete the installation, and the server will automatically restart. Log in using the built-in admin account (now with mydomain\administrator).
+Open "Add Roles and Features" and select the server. Choose "Active Directory Domain Services" and install.
+Post-installation, click on the notification flag to promote the server to a domain controller. Select "Add new forest" and name the domain (e.g., mydomain.com). Then Proceed with default settings and set a password. Complete the installation, and the server will automatically restart. Log in using the built-in admin account (now with mydomain\administrator).
 
 <h2>Setting-up a user account</h2>
 
