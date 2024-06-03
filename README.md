@@ -51,6 +51,7 @@ Log in with the built-in admin account (now mydomain\administrator). Create a de
 <p align="center">
 <img src="https://imgur.com/UpH0Jax.png" height="80%" width="80%"/>
 
+Open "Add role and features" and in "Server Roles" select the "Remote Acess" features. For "Role Services" select "DirectAccess and VPN(Ras)" and "Routing."
 Go to "Tools" > "Routing and Remote Access," configure and enable NAT for internal clients to access the internet using one address. Select the public interface (named "Internet") for internet connection. Once configured, the status should show a green checkmark.
 
 <p align="center">
