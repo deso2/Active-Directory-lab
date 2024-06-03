@@ -46,13 +46,13 @@ Post-installation, click on the notification flag to promote the server to a dom
 <p align="center">
 <img src="https://imgur.com/GCd0B1B.png" height="80%" width="80%"/>
 
-Log in with the built-in admin account (now mydomain\administrator). Create a dedicated domain admin account via "Start," "Administrative Tools," "Active Directory Users and Computers." Create an organizational unit named "MyAdmins" and create a new user with a naming convention (e.g., first initial, last name). Assign password "password1" and ensure "User must change password" is unchecked. Also, uncheck "Password never expires." Finish to create the account.
+Log in with the built-in admin account (now mydomain\administrator). Create a dedicated domain admin account via "Start," "Administrative Tools," "Active Directory Users and Computers." Create an organizational unit named "MyAdmins" and create a new user with a naming convention (e.g., first initial, last name). Assign password "password1" and ensure "User must change password" is unchecked. Also, uncheck "Password never expires." Also, include This user to domain admin and Finish to create the account.
 
 <p align="center">
 <img src="https://imgur.com/UpH0Jax.png" height="80%" width="80%"/>
 
 Open "Add role and features" and in "Server Roles" select the "Remote Acess" features. For "Role Services" select "DirectAccess and VPN(Ras)" and "Routing."
-Go to "Tools" > "Routing and Remote Access," configure and enable NAT for internal clients to access the internet using one address. Select the public interface (named "Internet") for internet connection. Once configured, the status should show a green checkmark.
+Go to "Tools" then "Routing and Remote Access," configure and enable NAT for internal clients to access the internet using one address by right clicking the (local) option. Select the public interface (named "Internet") for internet connection. Once configured, the status should show a green checkmark.
 
 <p align="center">
 <img src="https://imgur.com/p13t1G5.png" height="80%" width="80%"/>
